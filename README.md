@@ -1,6 +1,6 @@
 # AYCD Nike Account Profile Filter
 
-This script filters out AYCD profiles that do not have an associated Nike account from `nikeaccounts.txt`.  The output is `output.json` and is in AYCD format.
+This script filters out AYCD profiles that do not have an associated Nike account from `nikeaccounts.txt`.  The AYCD profile's billing email address must be in `nikeaccounts.txt` in order to pass.  The output is `output.json` and is in AYCD format.
 
 Input your AYCD profiles, replacing `aycd.json`.
 Import your Nike accounts in a user:pass format into `nikeaccounts.txt`.
