@@ -1,0 +1,10 @@
+username1@email.com:password1
+username2@email.com:password2
+username3@email.com:password3
+username4@email.com:password4
+username5@email.com:password5
+username6@email.com:password6
+username7@email.com:password7
+username8@email.com:password8
+username9@email.com:password9
+username10@email.com:password10

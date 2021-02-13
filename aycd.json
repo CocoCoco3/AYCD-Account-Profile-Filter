@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Fake",
+        "size": "",
+        "profileGroup": "",
+        "billingAddress": {
+            "name": "Fake Fake",
+            "email": "fake@gmail.com",
+            "phone": "1234567890",
+            "line1": "1600 Pennsylvania Avenue NW",
+            "line2": "",
+            "line3": "",
+            "postCode": "12345",
+            "city": "Washington",
+            "country": "United States",
+            "state": "District of Columbia"
+        },
+        "shippingAddress": {
+            "name": "Fake Fake",
+            "email": "fake@gmail.com",
+            "phone": "1234567890",
+            "line1": "1600 Pennsylvania Avenue NW",
+            "line2": "",
+            "line3": "",
+            "postCode": "12345",
+            "city": "Washington",
+            "country": "United States",
+            "state": "District of Columbia"
+        },
+        "paymentDetails": {
+            "nameOnCard": "Fake Fake",
+            "cardType": "Visa",
+            "cardNumber": "4242424242424242",
+            "cardExpMonth": "01",
+            "cardExpYear": "2023",
+            "cardCvv": "123"
+        },
+        "sameBillingAndShippingAddress": true,
+        "onlyCheckoutOnce": false,
+        "matchNameOnCardAndAddress": false
+    }
+]

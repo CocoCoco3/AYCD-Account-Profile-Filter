@@ -1,0 +1,20 @@
+{
+    "name": "aycd-nike-account-profile-filter",
+    "version": "1.0.0",
+    "description": "Input your AYCD profiles and Nike accounts in a user:pass format into `nikeaccounts.txt`.\r Run `node .`, and your `output.json` will be created.",
+    "main": "src/index",
+    "scripts": {
+        "start": "node src/index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CocoCoco3/AYCD-Nike-Account-Profile-Filter.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CocoCoco3/AYCD-Nike-Account-Profile-Filter/issues"
+    },
+    "homepage": "https://github.com/CocoCoco3/AYCD-Nike-Account-Profile-Filter#readme"
+}
