@@ -1,4 +1,4 @@
-# AYCD-Nike-Account-Profile-Filter
+# AYCD Nike Account Profile Filter
 
 This script filters out AYCD profiles that do not have an associated Nike account from `nikeaccounts.txt`.  The output is `output.json` and is in AYCD format.
 
