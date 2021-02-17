@@ -51,10 +51,10 @@ try {
 };
 
 try {
-    fs.readFileSync('nikeaccounts.txt', 'utf-8').split(/[\r\n]+/g).map(acc => acc.split(':')[0].toLowerCase());
+    fs.readFileSync('accounts.txt', 'utf-8').split(/[\r\n]+/g).map(acc => acc.split(':')[0].toLowerCase());
 } catch {
-    console.log('Error: Could not locate nikeaccounts.txt, I\'ve made an example file for you.');
-    const exampleNikeAcc = `
+    console.log('Error: Could not locate accounts.txt, I\'ve made an example file for you.');
+    const exampleAcc = `
 username1@email.com:password1
 username2@email.com:password2
 username3@email.com:password3
@@ -65,13 +65,13 @@ username7@email.com:password7
 username8@email.com:password8
 username9@email.com:password9
 username10@email.com:password10`;
-    fs.writeFileSync('nikeaccounts.txt', exampleNikeAcc);
+    fs.writeFileSync('accounts.txt', exampleAcc);
     process.exit();
 }
 
 
 const aycdProfiles = require('../aycd.json');
-const accounts = fs.readFileSync('nikeaccounts.txt', 'utf-8').split(/[\r\n]+/g).map(acc => acc.split(':')[0].toLowerCase());
+const accounts = fs.readFileSync('accounts.txt', 'utf-8').split(/[\r\n]+/g).map(acc => acc.split(':')[0].toLowerCase());
 const newProfiles = aycdProfiles.filter(acc => accounts.includes(acc.billingAddress.email.toLowerCase()));
 
 try {
